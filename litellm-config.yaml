@@ -1,0 +1,24 @@
+model_list:
+  - model_name: ollama/*
+    litellm_params:
+      model: ollama/*
+      api_base: http://localhost:11434
+ 
+  - model_name: perplexity/*
+    litellm_params:
+      model: perplexity/*
+      api_key: os.environ/PERPLEXITY_API_KEY
+
+  - model_name: anthropic/*
+    litellm_params:
+      model: anthropic/*
+      api_key: os.environ/ANTHROPIC_API_KEY
+  
+  - model_name: together/*
+    litellm_params:
+      model: together/*
+      api_key: os.environ/TOGETHER_API_KEY
+
+# Note Ollama support in LiteLLM is pending a PR.
+# In general we have to go through their own software layer.
+

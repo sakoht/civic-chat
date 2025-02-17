@@ -1,0 +1,25 @@
+accelerate>=0.26.0
+bs4
+colorama==0.4.6
+duckduckgo-search==6.3.7
+gql
+langchain
+langchain-anthropic
+langchain-huggingface
+langchain-openai
+langchain-ollama
+langchain_community #==0.3.14
+langchain_experimental #==0.3.3
+langchain_together
+langgraph
+llama-index-llms-ollama
+llama-index-llms-anthropic
+llama-index
+loguru
+protobuf
+rdkit
+tiktoken
+torch
+transformers
+typer
+
